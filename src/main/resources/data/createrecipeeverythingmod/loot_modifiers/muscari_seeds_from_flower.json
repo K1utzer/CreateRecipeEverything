@@ -1,0 +1,11 @@
+
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "createrecipeeverythingmod:muscari_flower"
+    }
+  ],
+  "addition": "createrecipeeverythingmod:muscari_seeds",
+  "type": "createrecipeeverythingmod:muscari_seeds_from_flower"
+}

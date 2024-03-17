@@ -1,0 +1,19 @@
+{
+  "type": "create:pressing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Cobble Wart Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:gravel_wart"
+    }
+  ],
+  "results": [
+    {
+      "item": "createrecipeeverythingmod:cobble_wart"
+    }
+  ]
+}

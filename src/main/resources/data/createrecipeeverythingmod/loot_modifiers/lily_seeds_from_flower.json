@@ -1,0 +1,11 @@
+
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "addition": "createrecipeeverythingmod:lily_of_the_valley_seeds",
+  "type": "createrecipeeverythingmod:lily_seeds_from_flower"
+}

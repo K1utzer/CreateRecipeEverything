@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Yellow Dye Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ]
+}

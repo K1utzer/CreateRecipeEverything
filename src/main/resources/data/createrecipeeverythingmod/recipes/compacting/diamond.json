@@ -1,0 +1,46 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Diamond Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    }
+
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond"
+
+    }
+  ],
+  "heatRequirement": "superheated"
+}

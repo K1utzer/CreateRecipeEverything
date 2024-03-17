@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "createrecipeeverythingmod:block/muscari_flower"
+  }
+}

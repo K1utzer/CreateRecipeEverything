@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Tuff Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ]
+}

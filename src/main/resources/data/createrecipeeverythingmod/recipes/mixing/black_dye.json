@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Black Dye Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:black_dye"
+    }
+  ]
+}

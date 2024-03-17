@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:muscari"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "chance": 0.1
+    },
+    {
+      "item": "createrecipeeverythingmod:muscari_seeds",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 50
+}

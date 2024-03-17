@@ -1,0 +1,56 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Cobweb Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+
+    },
+    {
+      "item": "create:super_glue"
+
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobweb"
+    }
+  ]
+}

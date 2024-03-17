@@ -1,0 +1,21 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Coal Dust Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "results": [
+    {
+      "item": "createrecipeeverythingmod:coal_dust",
+      "count": 2
+    }
+  ],
+  "processingTime": 150
+}

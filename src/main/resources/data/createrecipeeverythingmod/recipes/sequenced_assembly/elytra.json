@@ -1,0 +1,101 @@
+{
+  "type": "create:sequenced_assembly",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Elytra Recipe"
+    }
+  ],
+  "ingredient": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "transitionalItem": {
+    "item": "createrecipeeverythingmod:incomplete_elytra"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        },
+        {
+          "item": "minecraft:leather"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        },
+        {
+          "item": "minecraft:feather"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        },
+        {
+          "item": "minecraft:feather"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        }
+      ]
+    }
+  ,
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:incomplete_elytra"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:elytra"
+    }
+  ],
+  "loops": 10
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createrecipeeverythingmod:item/muscari_seeds"
+  }
+}

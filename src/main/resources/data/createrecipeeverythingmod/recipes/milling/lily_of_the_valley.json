@@ -1,0 +1,27 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:white_dye",
+      "count": 2
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:white_dye",
+      "chance": 0.1
+    },
+    {
+      "item": "createrecipeeverythingmod:lily_of_the_valley_seeds",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 50
+}

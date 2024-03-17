@@ -1,0 +1,45 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Netherite Ingot Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "createrecipeeverythingmod:diamond_fragment"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ]
+}

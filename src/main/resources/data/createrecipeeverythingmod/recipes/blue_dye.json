@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Blue Dye Recipe"
+    }
+  ],
+  "group": "blue_dye",
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:muscari_flower"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye"
+  }
+}

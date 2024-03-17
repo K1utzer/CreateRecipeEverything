@@ -1,0 +1,33 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Blue Dye Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "createrecipeeverythingmod:muscari_flower"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:blue_dye",
+      "count": 1
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "chance": 0.1
+    },
+    {
+      "item": "createrecipeeverythingmod:muscari_seeds",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Gunpowder Recipe"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "createrecipeeverythingmod:coal_dust"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

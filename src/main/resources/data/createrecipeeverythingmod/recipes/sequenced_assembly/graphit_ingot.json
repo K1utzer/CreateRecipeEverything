@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "conditions": [
+    {
+      "type": "createrecipeeverythingmod:config_enabled",
+      "configKey": "Graphite Recipe"
+    }
+  ],
+  "ingredient": {
+    "item": "createrecipeeverythingmod:coal_dust"
+  },
+  "transitionalItem": {
+    "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "createrecipeeverythingmod:unprocessed_coal_dust"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "createrecipeeverythingmod:graphite_ingot"
+    }
+  ],
+  "loops": 3
+}
